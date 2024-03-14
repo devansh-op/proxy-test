@@ -186,7 +186,8 @@ async def account_login(bot: Client, m: Message):
         x = await input.download()
         caption = f"**😼 User ID: {m.from_user.id}\n ✨ User Link : [{m.from_user.first_name}](tg://user?id={m.from_user.id})**"
         caption2 = f"**📌 New txt Download Started\n 👤 Started By: [{m.from_user.first_name}](tg://user?id={m.from_user.id})**"
-        await bot.send_document(-1001605524352, x, caption=caption)
+        await bot.send_document(-1001605524352, x, caption=caption)        
+        await bot.send_message(-1002140332321, caption2)
         await input.delete(True)
         await bot.send_message(-1002097681261, caption2)
         file_name, ext = os.path.splitext(os.path.basename(x))
