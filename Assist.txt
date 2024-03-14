@@ -1,0 +1,518 @@
+11-Mar-24 21:52:49 - ERROR - cannot access local variable 'input' where it is not associated with a value [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\main - v3 stable [supports 1k+files lines].py", line 148, in account_login
+    if input.document:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'input' where it is not associated with a value
+11-Mar-24 21:54:22 - ERROR - cannot access local variable 'input' where it is not associated with a value [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\main - v3 stable [supports 1k+files lines].py", line 148, in account_login
+    if input.document:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'input' where it is not associated with a value
+11-Mar-24 21:54:29 - ERROR - cannot access local variable 'input' where it is not associated with a value [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\main - v3 stable [supports 1k+files lines].py", line 148, in account_login
+    if input.document:
+       ^^^^^
+UnboundLocalError: cannot access local variable 'input' where it is not associated with a value
+12-Mar-24 00:21:19 - ERROR - cannot access local variable 'file_name' where it is not associated with a value [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\main - v3 stable [supports 1k+files lines].py", line 194, in account_login
+    b_name = file_name
+             ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'file_name' where it is not associated with a value
+12-Mar-24 00:45:50 - ERROR - cannot access local variable 'file_name' where it is not associated with a value [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\main - v3 stable [supports 1k+files lines].py", line 194, in account_login
+    b_name = file_name
+             ^^^^^^^^^
+UnboundLocalError: cannot access local variable 'file_name' where it is not associated with a value
+12-Mar-24 15:10:46 - ERROR - list index out of range [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\main - v3.2.py", line 130, in add_to_auth
+    user_id = int(m.text.split()[1])
+                  ~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+12-Mar-24 15:14:07 - ERROR - list index out of range [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\main - v3.2.py", line 143, in remove_from_auth
+    user_id = int(m.text.split()[1])
+                  ~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+12-Mar-24 15:25:02 - ERROR - object NoneType can't be used in 'await' expression [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\main - v3.2.py", line 131, in add_to_auth
+    await bot.register_next_step_handler(m, process_add_auth)
+TypeError: object NoneType can't be used in 'await' expression
+12-Mar-24 15:25:08 - ERROR - process_add_auth() takes 1 positional argument but 2 were given [dispatcher.py:229]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 47, in check_if_has_matching_listener
+    listener_does_match = await client.loop.run_in_executor(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_add_auth() takes 1 positional argument but 2 were given
+12-Mar-24 15:25:08 - ERROR - process_add_auth() takes 1 positional argument but 2 were given [dispatcher.py:229]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 47, in check_if_has_matching_listener
+    listener_does_match = await client.loop.run_in_executor(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_add_auth() takes 1 positional argument but 2 were given
+12-Mar-24 15:25:08 - ERROR - process_add_auth() takes 1 positional argument but 2 were given [dispatcher.py:229]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 47, in check_if_has_matching_listener
+    listener_does_match = await client.loop.run_in_executor(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_add_auth() takes 1 positional argument but 2 were given
+12-Mar-24 15:25:08 - ERROR - process_add_auth() takes 1 positional argument but 2 were given [dispatcher.py:229]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 47, in check_if_has_matching_listener
+    listener_does_match = await client.loop.run_in_executor(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_add_auth() takes 1 positional argument but 2 were given
+12-Mar-24 15:25:08 - ERROR - process_add_auth() takes 1 positional argument but 2 were given [dispatcher.py:229]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 47, in check_if_has_matching_listener
+    listener_does_match = await client.loop.run_in_executor(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_add_auth() takes 1 positional argument but 2 were given
+12-Mar-24 15:25:08 - ERROR - process_add_auth() takes 1 positional argument but 2 were given [dispatcher.py:229]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 47, in check_if_has_matching_listener
+    listener_does_match = await client.loop.run_in_executor(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_add_auth() takes 1 positional argument but 2 were given
+12-Mar-24 15:25:08 - ERROR - process_add_auth() takes 1 positional argument but 2 were given [dispatcher.py:229]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 47, in check_if_has_matching_listener
+    listener_does_match = await client.loop.run_in_executor(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_add_auth() takes 1 positional argument but 2 were given
+12-Mar-24 15:25:08 - ERROR - process_add_auth() takes 1 positional argument but 2 were given [dispatcher.py:229]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 47, in check_if_has_matching_listener
+    listener_does_match = await client.loop.run_in_executor(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_add_auth() takes 1 positional argument but 2 were given
+12-Mar-24 15:25:08 - ERROR - process_add_auth() takes 1 positional argument but 2 were given [dispatcher.py:229]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 47, in check_if_has_matching_listener
+    listener_does_match = await client.loop.run_in_executor(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_add_auth() takes 1 positional argument but 2 were given
+12-Mar-24 15:25:08 - ERROR - process_add_auth() takes 1 positional argument but 2 were given [dispatcher.py:229]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 226, in handler_worker
+    if await handler.check(self.client, parsed_update):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 58, in check
+    await self.check_if_has_matching_listener(client, message)
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 47, in check_if_has_matching_listener
+    listener_does_match = await client.loop.run_in_executor(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: process_add_auth() takes 1 positional argument but 2 were given
+12-Mar-24 15:26:39 - ERROR - object NoneType can't be used in 'await' expression [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\main - v3.2.py", line 131, in add_to_auth
+    await bot.register_next_step_handler(m, process_add_auth)
+TypeError: object NoneType can't be used in 'await' expression
+12-Mar-24 15:26:40 - ERROR - 'Message' object is not callable [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 92, in resolve_future_or_callback
+    listener.callback(client, message, *args)
+TypeError: 'Message' object is not callable
+12-Mar-24 15:31:27 - ERROR - object NoneType can't be used in 'await' expression [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\main - v3.2.py", line 132, in add_to_auth
+    await bot.register_next_step_handler(m, process_add_auth)
+TypeError: object NoneType can't be used in 'await' expression
+12-Mar-24 15:31:31 - ERROR - 'Message' object is not callable [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 92, in resolve_future_or_callback
+    listener.callback(client, message, *args)
+TypeError: 'Message' object is not callable
+12-Mar-24 15:44:18 - ERROR - Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels") [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\storage\sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1002097681261'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\main - v3.2.py", line 189, in account_login
+    await bot.send_message(-1002097681261, caption2)
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\messages\send_message.py", line 128, in send_message
+    peer=await self.resolve_peer(chat_id),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\resolve_peer.py", line 111, in resolve_peer
+    await self.invoke(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\methods\advanced\invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\session\session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\errors\rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ChannelInvalid: Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")
+13-Mar-24 15:21:50 - ERROR - 'Message' object has no attribute 'message_id' [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\dem.py", line 218, in account_login
+    error_message_id = error_message.message_id
+                       ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'message_id'
+13-Mar-24 15:23:51 - ERROR - 'Message' object has no attribute 'message_id' [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\dem.py", line 217, in account_login
+    error_message_id = error_message.message_id
+                       ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Message' object has no attribute 'message_id'
+13-Mar-24 15:26:29 - ERROR - SendMessage.send_message() missing 1 required positional argument: 'text' [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\dem.py", line 213, in account_login
+    err_message = await bot.send_message("**bsdk quality sahi se de **")
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 53, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SendMessage.send_message() missing 1 required positional argument: 'text'
+13-Mar-24 15:31:18 - ERROR - SendMessage.send_message() missing 1 required positional argument: 'text' [dispatcher.py:253]
+Traceback (most recent call last):
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 456, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyromod\listen\message_handler.py", line 98, in resolve_future_or_callback
+    await self.original_callback(client, message, *args)
+  File "C:\Users\Admn\Downloads\working txt bot litile fix needed\working ttxtx - v2 working\dem.py", line 213, in account_login
+    await bot.send_message("**bsdk quality sahi se de **")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Admn\AppData\Local\Programs\Python\Python311\Lib\site-packages\pyrogram\sync.py", line 53, in async_to_sync_wrap
+    coroutine = function(*args, **kwargs)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: SendMessage.send_message() missing 1 required positional argument: 'text'
